@@ -11,7 +11,7 @@ files described in the [`Local Settings`](#local-settings) section.
 
 ## Setup
 
-To setup the dotfiles, run the `./dotfiles` script.
+To setup the dotfiles, run the `./src/os/setup.sh` script.
 
 That's it! :sparkles:
 
