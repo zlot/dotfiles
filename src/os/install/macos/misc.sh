@@ -22,7 +22,6 @@ install_apps() {
 
     brew_install "Firefox" "firefox" "caskroom/cask" "cask"
     brew_install "Firefox Developer" "firefoxdeveloperedition" "caskroom/versions" "cask"
-    brew_install "Firefox Nightly" "firefoxnightly" "caskroom/versions" "cask"
 
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
