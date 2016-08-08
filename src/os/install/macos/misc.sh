@@ -16,7 +16,7 @@ install_apps() {
 
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-    brew_install "FFmpeg" "ffmpeg"
+    brew_install "FFmpeg" "ffmpeg --with-libvpx"
 
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
