@@ -10,10 +10,6 @@ install_apps() {
 
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-    brew_install "Autojump" "autojump"
-
-    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-
     brew_install "Chrome" "google-chrome" "caskroom/cask" "cask"
     brew_install "Chrome Canary" "google-chrome-canary" "caskroom/versions" "cask"
     brew_install "Chromium" "chromium" "caskroom/cask" "cask"
@@ -106,6 +102,14 @@ install_apps() {
 
     brew_install "Zopfli" "zopfli"
 
+    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+    brew_install "Autojump" "autojump"
+    brew_install "Atom" "atom" "caskroom/cask" "cask"
+    brew_install "Dropbox" "dropbox" "caskroom/cask" "cask"
+    brew_install "Evernote" "evernote" "caskroom/cask" "cask"
+    brew_install "Flycut" "flycut" "caskroom/cask" "cask"
+    brew_install "DiskInventoryX" "disk-inventory-x" "caskroom/cask" "cask"
 }
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
