@@ -29,10 +29,6 @@ install_apps() {
 
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-    brew_install "GIMP" "lisanet-gimp" "caskroom/cask" "cask"
-
-    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-
     brew_install "Git" "git"
 
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
