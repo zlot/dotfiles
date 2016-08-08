@@ -10,6 +10,10 @@ install_apps() {
 
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
+    brew_install "Autojump" "autojump"
+
+    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
     brew_install "Chrome" "google-chrome" "caskroom/cask" "cask"
     brew_install "Chrome Canary" "google-chrome-canary" "caskroom/versions" "cask"
     brew_install "Chromium" "chromium" "caskroom/cask" "cask"
