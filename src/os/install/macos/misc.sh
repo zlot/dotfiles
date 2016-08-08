@@ -109,6 +109,7 @@ install_apps() {
     brew_install "Evernote" "evernote" "caskroom/cask" "cask"
     brew_install "Flycut" "flycut" "caskroom/cask" "cask"
     brew_install "DiskInventoryX" "disk-inventory-x" "caskroom/cask" "cask"
+    brew_install "Sourcetree" "sourcetree" "caskroom/cask" "cask"
 }
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
