@@ -8,8 +8,6 @@ cd "$(dirname "${BASH_SOURCE[0]}")" \
 
 install_apps() {
 
-    brew_install "Android File Transfer" "android-file-transfer" "caskroom/cask" "cask"
-
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
     brew_install "Chrome" "google-chrome" "caskroom/cask" "cask"
