@@ -100,10 +100,6 @@ install_apps() {
 
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-    brew_install "WebKit" "webkit-nightly" "caskroom/versions" "cask"
-
-    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-
     brew_install "Zopfli" "zopfli"
 
 }
