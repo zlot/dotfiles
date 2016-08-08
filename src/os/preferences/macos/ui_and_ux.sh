@@ -10,8 +10,8 @@ print_in_purple "\n  UI & UX\n\n"
 execute "defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true" \
    "Avoid creating '.DS_Store' files on network volumes"
 
-execute "defaults write com.apple.menuextra.battery ShowPercent -string 'NO'" \
-    "Hide battery percentage from the menu bar"
+execute "defaults write com.apple.menuextra.battery ShowPercent -string 'YES'" \
+    "Show battery percentage from the menu bar"
 
 execute "defaults write com.apple.CrashReporter UseUNC 1" \
     "Make crash reports appear as notifications"
