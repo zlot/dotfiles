@@ -86,4 +86,8 @@ execute "for domain in ~/Library/Preferences/ByHost/com.apple.systemuiserver.*; 
         " \
     "Hide Time Machine and Volume icons from the menu bar"
 
+execute "defaults write NSGlobalDomain AppleInterfaceStyle 'Dark'" \
+    "Set dark menu bar and Dock"
+
+
 killall "SystemUIServer" &> /dev/null
