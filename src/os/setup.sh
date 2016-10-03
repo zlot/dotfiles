@@ -239,7 +239,17 @@ main() {
 
     ./create_symbolic_links.sh "$@"
 
-    #./install/main.sh
+    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+    ./create_local_config_files.sh
+
+    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+    ./install/main.sh
+
+    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+    ./preferences/main.sh
 
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
