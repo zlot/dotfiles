@@ -28,6 +28,7 @@ main() {
     install_npm_package "http-server" "http-server"
     install_npm_package "optipng" "optipng"
     install_npm_package "ESlint" "eslint"
+    install_npm_package "Yarn"  "yarn"
 
 }
 
