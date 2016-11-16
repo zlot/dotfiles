@@ -92,9 +92,9 @@ set synmaxcol=2500             " Limit syntax highlighting (this
                                " avoids the very slow redrawing
                                " when files contain long lines).
 
-set tabstop=4                  " ┐
-set softtabstop=4              " │ Set global <TAB> settings.
-set shiftwidth=4               " │
+set tabstop=2                  " ┐
+set softtabstop=2              " │ Set global <TAB> settings.
+set shiftwidth=2               " │
 set expandtab                  " ┘
 
 set ttyfast                    " Enable fast terminal connection.
