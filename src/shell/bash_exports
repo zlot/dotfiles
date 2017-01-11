@@ -51,6 +51,12 @@ export LESS_TERMCAP_me=$'\e[0m'      # End bold mode.
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
+# Force less to always ignore case with search
+
+export LESS=-I   # Causes searches to ignore case.
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
 # Don't clear the screen after quitting a `man` page.
 
 export MANPAGER="less -X"
