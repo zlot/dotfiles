@@ -32,11 +32,16 @@ if ! cmd_exists "vim"; then
   print_success "installed vim"
 fi
 
-printf "Install vim plugins, and tmux config\n"
+printf "Now installing vim plugins and .tmux.conf\n"
 
 touch ~/.bash.local
 
 ln -s ~/dotfiles/src/vim/vimrc ~/.vimrc
+
+mkd "~/.vim/backups"
+mkd "~/.vim/plugins"
+mkd "~/.vim/snippets"
+mkd "~/.vim/swaps"
 
 # should successfully install all vim plugins.
 cd os/install && ./vim.sh
