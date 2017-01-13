@@ -58,3 +58,6 @@ printf "setw -g mode-mouse on \n"
 printf "set -g mouse-select-pane on \n"
 printf "set -g mouse-resize-pane on \n"
 printf "set -g mouse-select-window on \n"
+
+printf "Also: to set vim as default editor:\n"
+print_in_purple "$ sudo update-alternatives --config editor"
