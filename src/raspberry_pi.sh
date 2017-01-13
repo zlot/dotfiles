@@ -1,6 +1,11 @@
 #!/bin/sh
 echo -e "Note: This repo should be in ~/dotfiles! This is so soft links are linked correctly.\n"
 
+echo -e "Running sudo apt-get update\n"
+sudo apt-get update
+
+echo -e "Installing vim\n"
+sudo apt-get --yes --force-yes install vim-runtime vim
 
 echo -e "Install vim plugins, and tmux config\n"
 
