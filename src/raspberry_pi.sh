@@ -6,9 +6,7 @@ printf "Note: This repo should be in ~/dotfiles! This is so soft links are linke
 
 ask_for_confirmation "Is this repo in ~/dotfiles?"
 
-if answer_is_yes; then
-  # continue
-else
+if ! answer_is_yes; then
   printf "Please put repo at ~/dotfiles and run this again."
   exit 1
 fi
