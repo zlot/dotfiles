@@ -1,11 +1,25 @@
 #!/bin/sh
 
-echo -e "Running sudo apt-get update\n"
-sudo apt-get update
+cd "$(dirname "${BASH_SOURCE[0]}")" && . "./os/utils.sh"
 
 echo -e "Installing vim\n"
 sudo apt-get --yes --force-yes install vim-runtime vim
 printf "Note: This repo should be in ~/dotfiles! This is so soft links are linked correctly.\n"
+
+ask_for_confirmation "Is this repo in ~/dotfiles?"
+
+if answer_is_yes; then
+  # continue
+else
+  printf "Please put repo at ~/dotfiles and run this again."
+  exit 1
+fi
+
+ask_for_confirmation "Do you want to run sudo apt-get update?"
+
+if answer_is_yes; then
+    sudo apt-get update
+fi
 
 printf "Install vim plugins, and tmux config\n"
 
