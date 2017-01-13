@@ -1,7 +1,8 @@
 #!/bin/sh
+echo -e "Note: This repo should be in ~/dotfiles! This is so soft links are linked correctly.\n"
+
 
 echo -e "Install vim plugins, and tmux config\n"
-echo -e "This repo should be in ~/dotfiles"
 
 touch ~/.bash.local
 
