@@ -43,6 +43,9 @@ mkd "~/.vim/plugins"
 mkd "~/.vim/snippets"
 mkd "~/.vim/swaps"
 
+# This has to be done manually
+cp vim/vim/snippets/emmet.json ~/.vim/snippets/
+
 # should successfully install all vim plugins.
 cd os/install && ./vim.sh
 
