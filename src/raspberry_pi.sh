@@ -1,6 +1,4 @@
 #!/bin/sh
-cd "$(dirname "${BASH_SOURCE[0]}")" \
-    && . "os/utils.sh"
 
 echo -e "Install vim plugins, and tmux config\n"
 echo -e "This repo should be in ~/dotfiles"
