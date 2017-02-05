@@ -157,6 +157,7 @@ call vundle#begin("~/.vim/plugins")
     Plugin 'mattn/emmet-vim'
     Plugin 'mattn/webapi-vim'
     Plugin 'moll/vim-node'
+    Plugin 'mtscout6/syntastic-local-eslint.vim'
     Plugin 'nathanaelkane/vim-indent-guides'
     Plugin 'othree/html5.vim'
     Plugin 'plasticboy/vim-markdown'
@@ -262,10 +263,10 @@ inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 " ----------------------------------------------------------------------
 
 " Inform Syntastic which checkers to use based on file types.
-" https://github.com/scrooloose/syntastic#3-faq
+" https://github.com/scrooloose/syntastic#faq
 
-let g:syntastic_html_checkers = [ "jshint" ]
-let g:syntastic_javascript_checkers = [ "jshint" ]
+let g:syntastic_javascript_checkers = [ 'eslint' ]
+
 
 " - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
