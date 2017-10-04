@@ -24,10 +24,6 @@ install_apps() {
 
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-    brew_install "Flash" "flash" "caskroom/cask" "cask"
-
-    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-
     brew_install "Git" "git"
 
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
