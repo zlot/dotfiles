@@ -72,8 +72,7 @@ alias o="open"
 
 # Update applications and CLTs.
 
-alias u="sudo softwareupdate --install --all \
-            && brew update \
+alias u="brew update \
             && brew upgrade --all \
             && brew cleanup \
             && npm install -g npm \
