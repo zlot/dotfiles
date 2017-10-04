@@ -235,25 +235,11 @@ main() {
 
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-    # Setup the `dotfiles` if needed.
-
-    if ! cmd_exists "git" \
-        || [ "$(git config --get remote.origin.url)" != "$DOTFILES_ORIGIN" ]; then
-
-        print_in_purple "\n Download and extract archive\n\n"
-        download_dotfiles
-
-    fi
-
-    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-
     ./create_directories.sh
 
     ./create_symbolic_links.sh "$@"
 
-    ./install/main.sh
-
-    ./preferences/main.sh
+    #./install/main.sh
 
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
