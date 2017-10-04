@@ -24,6 +24,10 @@ alias gl='git log'
 alias lsr='ls -R'
 alias lss='ls -la@'
 
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+alias php-server='php -S localhost:8888'
+
 
 # ----------------------------------------------------------------------
 # | Silly                                                              |
