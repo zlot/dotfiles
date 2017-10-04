@@ -44,15 +44,6 @@ install_apps() {
 
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-    # `Safari Technology Preview` requires macOS 10.11.4 or la
-    # https://github.com/alrra/dotfiles/issues
-
-    if is_supported_version "$(get_os_version)" "10.11.4"; then
-        brew_install "Safari Technology Preview" "safari-technology-preview" "caskroom/versions" "cask"
-    fi
-
-    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-
     brew_install "ShellCheck" "shellcheck"
 
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
