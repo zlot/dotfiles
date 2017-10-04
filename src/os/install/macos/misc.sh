@@ -40,10 +40,6 @@ install_apps() {
 
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-    brew_install "LibreOffice" "libreoffice" "caskroom/cask" "cask"
-
-    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-
     brew_install "LICEcap" "licecap" "caskroom/cask" "cask"
 
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
