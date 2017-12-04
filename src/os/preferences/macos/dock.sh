@@ -16,6 +16,9 @@ execute "defaults write com.apple.dock enable-spring-load-actions-on-all-items -
 #execute "defaults write com.apple.dock expose-group-by-app -bool false" \
 #    "Do not group windows by application in Mission Control"
 
+execute "defaults write com.apple.dock expose-animation-duration -float 0.1" \
+    "Make all Mission Control related animations faster."
+
 execute "defaults write com.apple.dock mineffect -string 'scale'" \
     "Change minimize/maximize window effect"
 
