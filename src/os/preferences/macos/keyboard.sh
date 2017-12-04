@@ -24,3 +24,12 @@ execute "defaults write -g NSAutomaticQuoteSubstitutionEnabled -bool false" \
 
 execute "defaults write -g NSAutomaticDashSubstitutionEnabled -bool false" \
     "Disable smart dashes"
+
+execute "defaults write NSGlobalDomain NSAutomaticCapitalizationEnabled -bool false" \
+    "Disable automatic capitalization"
+
+execute "defaults write -g NSAutomaticSpellingCorrectionEnabled -bool false" \
+    "Disable automatic correction"
+
+execute "defaults write -g NSAutomaticPeriodSubstitutionEnabled -bool false" \
+    "Disable automatic period substitution"
