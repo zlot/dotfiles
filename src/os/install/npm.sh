@@ -25,7 +25,7 @@ main() {
     install_npm_package "!nstant-markdown-d" "instant-markdown-d"
     install_npm_package "Babel" "babel-cli"
     install_npm_package "Browserify" "browserify"
-    install_npm_package "http-server" "http-server"
+    install_npm_package "http-serve" "http-serve"
     install_npm_package "optipng" "optipng"
     install_npm_package "ESlint" "eslint"
 
